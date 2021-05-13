@@ -1,1 +1,30 @@
 
+.carousel-item{
+    height: 90rem;
+    background-color:black;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover ;
+}
+.container{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 75rem;
+    margin-left: 10rem;
+    /* padding-bottom: 500px; */
+    font-size: 2rem;
+    
+}
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover ;
+    opacity: 0.7;
+}
