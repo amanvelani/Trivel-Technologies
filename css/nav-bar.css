@@ -3,6 +3,7 @@
     padding: 0rem;
 } */
 #navbar{
+    height: 4rem;
     display: flex;
     align-items: center;
     background-color: rgb(118, 179, 230); 
@@ -34,12 +35,12 @@
 #navbar ul li a{
     display: block;
     padding: 0.4rem 1.5rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
     text-decoration: none;
     color: rgb(37, 6, 122);
 }
 #navbar ul li a:hover{
-    background-color: rgb(128, 238, 128);
+    background-color: rgb(174, 226, 228);
 }
 
 
