@@ -32,3 +32,6 @@
     background-size: cover ;
     opacity: 0.7;
 }
+img{
+    z-index: 1000;
+}
