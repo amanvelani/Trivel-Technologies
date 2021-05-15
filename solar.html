@@ -5,15 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar</title>
-    <link rel="stylesheet" href="css/solar-style.css">
+    <link rel="stylesheet" href="css/services-style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
     />
-   
+    <style>@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");</style>
     <link rel="stylesheet" href="css/pop-up.css">
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+      .banner::before {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../images/img2.jpg");
+      }
+      /* **************************Responsive part************************ */
+      @media (min-width: 425px) and (max-width: 690px){
+        .info-text::before{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("../images/img1.jpg");
+        }
+      }
+      @media (min-width: 320px) and (max-width: 425px){
+        .info-text::before{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("../images/img1.jpg");
+        }
+      }
     </style>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
     <script>
