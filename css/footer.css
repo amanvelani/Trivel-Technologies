@@ -3,7 +3,12 @@
 section {
     padding: 60px 0;
 }
-
+#center-text{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+   color: white;
+}
 section .section-title {
     text-align: center;
     color:black;
