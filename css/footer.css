@@ -79,3 +79,6 @@ section .section-title {
     margin-bottom: 10px;
 }
 }
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}

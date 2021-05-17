@@ -14,7 +14,12 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+  </style>
 
     <title>Trivel Technologies</title>
   </head>
@@ -22,7 +27,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="nav">
           <a class="navbar-brand" href="index.html">
     <img src="images/logo.png" width="60" height="60" class="d-inline-block align-center" alt="" loading="lazy">
-    TRIVEL TECH.
+    Trivel Technologies
   </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -61,36 +66,53 @@
     <!-- Pop Up View -->
     <div class="bg-modal" style="font-size: xx-large;">
         <div class="modal-contents">
+          <!-- <img src="images/logo.png" alt="" height="70px" width="70px">  -->
           <div class="close">+</div>
-            <img src="images/logo.png" alt="" height="70px" width="70px"> 
-             <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"> -->
-          <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
-          action="https://script.google.com/macros/s/AKfycbzKiio_nUqsXrM0ZdrLpkH1KJNkFBKdfkq3EWFc3K2BoPfgmBFqkPJWpvvKnSnklkvZPA/exec">
-            <!-- change the form action to your script url -->   
             
-          <div class="form-elements">
-          <div class="name"><label for="name">Name:</label>
-              <input id="name" name="name" placeholder="Your Name..." /></div>
+             <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"> -->
+             <div class="contact-us">    
+              <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+                action="https://script.google.com/macros/s/AKfycbzKiio_nUqsXrM0ZdrLpkH1KJNkFBKdfkq3EWFc3K2BoPfgmBFqkPJWpvvKnSnklkvZPA/exec" style="background-color: whitesmoke">
+              <!-- change the form action to your script url -->   
+                <p class="popup-conatct-us-p">Contact Us:</p>
+                <div class="form-elements">
+                <div class="name"><label for="name"><b style="font-size: 20px;">Name:</b></label>
+                <input id="name" name="name" placeholder="Your Name..." /></div>
        
-          <div><label for="message">Message: </label>
+                <div class="message"><label for="message"><b  style="font-size: 20px;"> Message: </b></label>
                 <textarea id="message" name="message" rows="10"
                  placeholder="Ask us anything..."></textarea>
-          </div> 
-          <div>
-              <label for="email"><em>Your</em> Email Address:</label>
+                </div> 
+                <div class="email">
+                <label for="email"><b  style="font-size: 20px;"> Email Address: </b></label>
                 <input id="email" name="email" type="email" value=""
                   required placeholder="your.name@gmail.com"/>
-          </div>
-          <div>
-              <label for="phone">Phone Number: </label>
+                </div>
+                <div class="phone">
+                <label for="phone"><b  style="font-size: 20px;"> Phone Number: </b></label>
                 <input id="phone" name="phone" placeholder="" />
-          </div>
-              <button class="btn btn-primary" id="pop-button">
+                </div>
+                <button class="btn btn-primary pop-button" id="pop-button">
                 <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
-        </div>
+                </div>
+              </form>
+              </div>
+             <div class="about-us">
+              <p>About Us:</p>
+              <!-- <img src="images/logo.png" alt="" height="70px" width="70px">  -->
+              <p class="about-us-p">
+               <b> Email </b>: <a href="mailto:info@triveltech.com">info@triveltech.com</a><br>
+               <a href="mailto:triveltech@gmail.com" style="margin-left: 65px;">triveltech@gmail.com</a><br><br>
+                
+                <b> Phone </b>:<a href="tel:+918980048488">+918980048488</a><br>
+                <a href="tel:+91 93136 78892" style="margin-left: 70px;">+91 93136 78892</a><br><br>
 
-  </form>
-           
+                <b>Address</b> : A-201, Celesta Courtyard,
+                Opp. Antariksh Society,
+                Iskon, Ahmedabad.
+                380058<br>
+              </p>
+             </div>
         </div>
     </div>
     
