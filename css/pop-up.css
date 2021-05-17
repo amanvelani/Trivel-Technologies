@@ -130,11 +130,12 @@ input {
 @media (min-width: 320px) and (max-width: 425px) {
 	.modal-contents{
 		width: 100vw;
-		height: 130vh;
+		height: 100vh;
 		top: 0;
 		padding: 0;
 		/* font-size: xx-small; */
-		padding-top: 15rem;
+		padding-top: 5rem;
+		overflow: auto;
 	}
 	.contact-us{
 		width: 100%;
@@ -161,7 +162,7 @@ input {
 		margin-right: 100px;
 	}
 	.close{
-		top: 25vh;
+		top: 10vh;
 	}
 	.popup-conatct-us-p{
 		text-align: center;
