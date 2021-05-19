@@ -127,6 +127,11 @@ input {
 .name .message .email .phone{
 	background-color: whitesmoke;
 }
+.popup-conatct-us-p{
+	background-color:#1a3352; 
+	color: white; 
+	margin-top: 20px;
+}
 @media (min-width: 320px) and (max-width: 425px) {
 	.modal-contents{
 		width: 100vw;
@@ -145,11 +150,34 @@ input {
 		margin-top: 20px;
 		margin-left: 0;
 		/* font-size: 20px; */
-		width: 100%;
-		
+		width: 100%;	
 	}
-	.name .message .email .phone{
-		/* font-size: xx-small; */
+	.name{
+		text-align: center;
+	}
+	#name{
+		align-self: center;
+		width: 100%;
+	}
+	.message{
+		text-align: center;
+	}
+	#message{
+		align-self: center;
+		width: 100%;
+	}
+	.email{
+		text-align: center;
+	}
+	#email{
+		align-self: center;
+		width: 100%;
+	}
+	.phone{
+		text-align: center;
+	}
+	#phone{
+		align-self: center;
 		width: 100%;
 	}
 	textarea{
@@ -159,12 +187,15 @@ input {
 	.pop-button{
 		float: left;
 		/* font-size: xx-small; */
-		margin-right: 100px;
+		margin-right: 180px;
 	}
 	.close{
 		top: 10vh;
+		color: white;
+		right: 20px;
 	}
 	.popup-conatct-us-p{
 		text-align: center;
+		margin-top: 0;
 	}
 }
