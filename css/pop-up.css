@@ -36,10 +36,10 @@ input {
 
 .close {
 	position: absolute;
-	top: 0;
-	right: 10px;
+	top: 10px;
+	right: 20px;
 	font-size: 42px;
-	color: #333;
+	color:white;
 	transform: rotate(45deg);
 	cursor: pointer;
 }
@@ -100,7 +100,7 @@ input {
   /*  */
 
   .contact-us {
-    float: left;
+    /* float: left; */
     /* padding-top:100px; */
     width: 41%;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -112,7 +112,8 @@ input {
 }
 .about-us{
     border-radius: 1px solid black;
-    float: left;
+    /* float: left; */
+	
     width: 400px;
 	margin-left: 30px;
     /* margin-top: 100px; */
@@ -130,7 +131,10 @@ input {
 .popup-conatct-us-p{
 	background-color:#1a3352; 
 	color: white; 
-	margin-top: 20px;
+	/* margin-top: 20px; */
+}
+.contct-us-flex{
+	display: flex;
 }
 @media (min-width: 320px) and (max-width: 425px) {
 	.modal-contents{
@@ -147,6 +151,7 @@ input {
 		text-align: center;
 	}
 	.about-us{
+		float: left;
 		margin-top: 20px;
 		margin-left: 0;
 		/* font-size: 20px; */
@@ -187,15 +192,18 @@ input {
 	.pop-button{
 		float: left;
 		/* font-size: xx-small; */
-		margin-right: 180px;
+		margin-right: 160px;
 	}
 	.close{
-		top: 10vh;
+		top: 11%;
 		color: white;
-		right: 20px;
+		right: 10%px;
 	}
 	.popup-conatct-us-p{
 		text-align: center;
 		margin-top: 0;
+	}
+	.contct-us-flex{
+		display: inline-block;
 	}
 }
