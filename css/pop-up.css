@@ -136,7 +136,7 @@ input {
 .contct-us-flex{
 	display: flex;
 }
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 846px) {
 	.modal-contents{
 		width: 100vw;
 		height: 100vh;

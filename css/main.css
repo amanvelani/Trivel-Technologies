@@ -24,10 +24,11 @@
     /* animation: carousel-ani 2s ease-in-out ;  */
 }
 .container h1{
+    font-size: 40px;
     animation: carousel-ani 2s ease-in-out;
 }
 .container p{
-    
+    font-size: 25px;
     animation: carousel-ani-p 6s ease-in-out ;
 }
 .overlay-image{

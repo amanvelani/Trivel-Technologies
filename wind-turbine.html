@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind Turbine Towers</title>
+    <link rel="icon" type= "image/ico" href="images/logo1.jpg"/>
+    <link rel="stylesheet" href="css/services-style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <style>@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");</style>
+    <link rel="stylesheet" href="css/pop-up.css">
+    <style>
+      .banner::before {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("./images/wind-turbine.jpg");
+      }
+      /* **************************Responsive part************************ */
+      @media (min-width: 425px) and (max-width: 690px){
+        .info-text::before{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("./images/solar/mariana-proenca-_h0xG4s6NFg-unsplash.jpg");
+        }
+      }
+      @media (min-width: 320px) and (max-width: 425px){
+        .info-text::before{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("./images/solar/mariana-proenca-_h0xG4s6NFg-unsplash.jpg");
+        }
+      }
+    </style>
+     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html")
+        });
+    </script>
+</head>
+<body>
+    <div id="header" class="sticky-top"></div>
+    <div class="banner">
+        <!-- <div class="dark"></div> -->
+        <div class="heading">Wind Turbine Towers</div>
+      </div>
+      <div class="heading1">End to end customised and sustainable manufacturing solutions for wind turbine towers</div>
+      <div class="infos">
+        <div class="info-text">
+          <p id="para">
+              <li>Tubular Steel Towers</li>
+          </p>
+        </div>
+        <div class="info-img">
+          <img src="images/wind-turbine/Tubular 1.jpg" alt="img1" id="img1"/>
+        </div>
+      </div>
+      <div class="infos" id="reverse">
+        <div class="info-text">
+          <p id="para">
+            <li>Lattice Towers</li>
+          </p>
+        </div>
+        <div class="info-img">
+          <img src="images/wind-turbine/Lattice 3.jpg" alt="img1" id="img1" />
+        </div>
+      </div>
+      <div class="infos">
+        <div class="info-text">
+          <p id="para">
+            <li>Concrete Towers</li>
+          </p>
+        </div>
+        <div class="info-img">
+          <img src="images/wind-turbine/Concrete TT.jpg" alt="img1" id="img1" />
+        </div>
+        </div>
+        <div class="infos" id="reverse">
+          <div class="info-text">
+            <p class="para">
+              <li>Hybrid Towers</li>
+            </p>
+          </div>
+          <div class="info-img">
+            <img src="images/wind-turbine/Suzlon-S97-120meter-hybrid-tower-wind-turbine.jpg" alt="img1" id="img1" />
+          </div>
+      </div> 
+   <section id="footer""></section>
+</body>
+</html>
