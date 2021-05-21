@@ -1,0 +1,108 @@
+
+.carousel-item{
+    height:100vh;
+    background-color:black;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover ;
+    /* animation: carousel-ani 2s ease-in-out; */
+}
+.container{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 20rem;
+    margin-right: 10rem;
+    text-align: center;
+    /* margin-left: 10rem; */
+    /* padding-bottom: 500px; */
+    font-size: 1rem;
+    color:whitesmoke;
+    /* opacity: 0; */
+    /* animation: carousel-ani 2s ease-in-out ;  */
+}
+.container h1{
+    font-size: 40px;
+    animation: carousel-ani 2s ease-in-out;
+}
+.container p{
+    font-size: 25px;
+    animation: carousel-ani-p 6s ease-in-out ;
+}
+.overlay-image{
+    
+    /* height: fit-content; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover ;
+    opacity: 0.7;
+}
+
+img{
+    z-index: 1000;
+}
+button{
+    margin-right: 30px;
+    margin-top: 10px;
+    animation: link-button 5s;
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .container{
+        margin-top: 10rem;
+    }
+    button{
+        margin-right: 0;
+    }
+
+}
+
+@keyframes carousel-ani {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }  
+    50%{
+        transform: translateX(50%);
+        opacity: .5;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes carousel-ani-p {
+    0% {
+        transform: translateX(300%);
+        opacity: 0;
+    }  
+    50%{
+        transform: translateX(-50%);
+        opacity: .5;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes link-button{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 1;
+    }
+}

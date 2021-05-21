@@ -1,0 +1,209 @@
+
+.bg-modal {
+	background-color: rgba(0, 0, 0, 0.8);
+	/* font-weight: bolder; */
+	height: 90vh;
+	width: 100vw;
+	position: absolute;
+	/* top: 10rem; */
+	padding-bottom: 10vh;
+	display: none;
+	justify-content: center;
+	align-items: center;
+    z-index: 5;
+	/* transition: 1s ease-in-out; */
+}
+
+.modal-contents {
+	height: 250;
+	width: 60%;
+	background-color: whitesmoke;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+	margin-top: 0;
+	/* transition: 5s ease-in; */
+}
+
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 42px;
+	color:white;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+.cont-button {
+	background-color: blue;
+	border: 2px solid white;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+}
+.nav-item{
+	font-size: 3vh;
+}
+.form-elements{
+	font-size: 0.8rem;
+	background-color:whitesmoke;
+	text-align: left;
+	color: black;
+}
+
+  
+  textarea {
+	width: 100%;
+  }
+  .content-head {
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 2em 0 1em;
+  }
+  .is-center {
+	text-align: center;
+  }
+  .pop-button-success {
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	background: rgb(28, 184, 65); /* this is a green */
+  }
+  .pop-button-xlarge {
+	font-size: 125%;
+  }
+  #pop-button {
+	float: right;
+  }
+  #name, #email {
+	width: 50%;
+  }
+  .honeypot-field {
+	display: none;
+  }
+  
+
+  /*  */
+
+  .contact-us {
+    /* float: left; */
+    /* padding-top:100px; */
+    width: 41%;
+	font-family: 'Source Sans Pro', sans-serif;
+	/* font-size:; */
+	/* font-size: 10px;     */
+	/* padding-right: 20px; */
+    /* border-radius: 1px solid black; */
+   
+}
+.about-us{
+    border-radius: 1px solid black;
+    /* float: left; */
+	
+    width: 400px;
+	margin-left: 30px;
+    /* margin-top: 100px; */
+    /* background-color:cadetblue; */
+    text-align: center;
+    padding-left: 15px;
+}
+.about-us-p{
+	font-size: 20px;
+	text-align: left;
+}
+.name .message .email .phone{
+	background-color: whitesmoke;
+}
+.popup-conatct-us-p{
+	background-color:#1a3352; 
+	color: white; 
+	/* margin-top: 20px; */
+}
+.contct-us-flex{
+	display: flex;
+}
+@media (min-width: 320px) and (max-width: 846px) {
+	.modal-contents{
+		width: 100vw;
+		height: 100vh;
+		top: 0;
+		padding: 0;
+		/* font-size: xx-small; */
+		padding-top: 5rem;
+		overflow: auto;
+	}
+	.contact-us{
+		width: 100%;
+		text-align: center;
+	}
+	.about-us{
+		float: left;
+		margin-top: 20px;
+		margin-left: 0;
+		/* font-size: 20px; */
+		width: 100%;	
+	}
+	.name{
+		text-align: center;
+	}
+	#name{
+		align-self: center;
+		width: 100%;
+	}
+	.message{
+		text-align: center;
+	}
+	#message{
+		align-self: center;
+		width: 100%;
+	}
+	.email{
+		text-align: center;
+	}
+	#email{
+		align-self: center;
+		width: 100%;
+	}
+	.phone{
+		text-align: center;
+	}
+	#phone{
+		align-self: center;
+		width: 100%;
+	}
+	textarea{
+		  width: 100%;
+		  /* height: 50px; */
+	}
+	.pop-button{
+		float: left;
+		/* font-size: xx-small; */
+		margin-right: 160px;
+	}
+	.close{
+		top: 11%;
+		color: white;
+		right: 10%px;
+	}
+	.popup-conatct-us-p{
+		text-align: center;
+		margin-top: 0;
+	}
+	.contct-us-flex{
+		display: inline-block;
+	}
+}

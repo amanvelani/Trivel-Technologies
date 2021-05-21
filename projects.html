@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="icon" type="image/ico" href="images/logo1.jpg" />
+    <link rel="stylesheet" href="css/services-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+    </style>
+    <link rel="stylesheet" href="css/pop-up.css" />
+    <style>
+      .banner::before {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url("./images/projects/Industrial\ Construction.jpg");
+      }
+      /* **************************Responsive part************************ */
+      @media (min-width: 320px) and (max-width: 690px) {
+        #img-consultancy::before {
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.4),
+              rgba(0, 0, 0, 0.4)
+            ),
+            url("./images/projects/Consultancy\ 1.jpg");
+        }
+
+        #img-construction::before {
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.4),
+              rgba(0, 0, 0, 0.4)
+            ),
+            url("./images/projects/Industrial\ Construction\ 1.jpg");
+        }
+
+        #img-fabrication::before {
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.4),
+              rgba(0, 0, 0, 0.4)
+            ),
+            url("./images/projects/Fabrication.jpg");
+        }
+      }
+    </style>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header" class="sticky-top"></div>
+    <div class="banner">
+      <!-- <div class="dark"></div> -->
+      <div class="heading">Projects</div>
+    </div>
+    <div class="heading1">
+      <h1 id="heading1">
+        End to end customised and sustainable project guidance
+      </h1>
+    </div>
+    <div class="infos">
+      <div class="info-text" id="img-consultancy">
+        <h2 id="content-head">Consultancy :</h2>
+        <ul id="content">
+          <li>Consultancy for effective and efficient project management</li>
+        </ul>
+      </div>
+      <div class="info-img">
+        <img src="images/projects/Consultancy 1.jpg" alt="img1" id="img1" />
+      </div>
+    </div>
+    <div class="infos" id="reverse">
+      <div class="info-text" id="img-construction">
+        <h2 id="content-head">Industrial Construction :</h2>
+        <ul id="content">
+          <li>Concept, Design, Supply and Construct Industrial Facilities</li>
+        </ul>
+      </div>
+      <div class="info-img">
+        <img
+          src="images/projects/Industrial Construction 1.jpg"
+          alt="img1"
+          id="img1"
+        />
+      </div>
+    </div>
+    <div class="infos">
+      <div class="info-text" id="img-fabrication">
+        <h2 id="content-head">Fabrication Solutions - At Site :</h2>
+        <ul id="content">
+          <li>
+            Innovative and cost competent fabrication at site solutions for ODC
+            equipment and various types of piping projects.
+          </li>
+        </ul>
+      </div>
+      <div class="info-img">
+        <img src="images/projects/Fabrication.jpg" alt="img1" id="img1" />
+      </div>
+    </div>
+    <section id="footer"></section>
+  </body>
+</html>
