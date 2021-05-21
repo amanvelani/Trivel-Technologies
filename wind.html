@@ -20,22 +20,15 @@
           url("./images/wind/mario-caruso-ltwEbf_G9bs-unsplash.jpg");
       }
       /* **************************Responsive part************************ */
-      @media (min-width: 425px) and (max-width: 690px) {
-        .info-text::before {
-          background-image: linear-gradient(
-              rgba(0, 0, 0, 0.4),
-              rgba(0, 0, 0, 0.4)
-            ),
-            url("./images/wind/wind2.jpg");
+      @media (min-width: 320px) and (max-width: 690px) {
+        #img-wind2::before {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url("../images/wind/wind2.jpg");
         }
-      }
-      @media (min-width: 320px) and (max-width: 425px) {
-        .info-text::before {
-          background-image: linear-gradient(
-              rgba(0, 0, 0, 0.4),
-              rgba(0, 0, 0, 0.4)
-            ),
-            url("./images/wind/img1.jpg");
+
+        #img-img1::before {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url("../images/wind/img1.jpg");
         }
       }
     </style>
@@ -57,22 +50,24 @@
       <!-- <div class="dark"></div> -->
       <div class="heading">Wind Power Consultancy</div>
     </div>
-    <h1 class="heading1"> Wind Energy Solutions For</h1>
+    <div class="heading1">
+      <h1 id="heading1"> Wind Energy Solutions For</h1>
+    </div>
     <div class="infos">
-      <div class="info-text">
-        <p id="para">
+      <div class="info-text" id="img-wind2">
+        <ul id="para">
             <li>Captive Consumptions</li>
-        </p>
+        </ul>
       </div>
       <div class="info-img">
         <img src="images/wind/wind2.jpg" alt="img1" id="img1" />
       </div>
     </div>
     <div class="infos" id="reverse">
-      <div class="info-text">
-        <p id="para">
+      <div class="info-text" id="img-img1">
+        <ul id="para">
           <li>Investment for third party sales</li>
-        </p>
+        </ul>
       </div>
       <div class="info-img">
         <img src="images/wind/img1.jpg" alt="img1" id="img1" />
