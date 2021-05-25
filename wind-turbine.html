@@ -59,14 +59,28 @@
       }
     </style>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+    <link rel="stylesheet" href="css/loader.css">
     <script>
-      $(function () {
-        $("#header").load("header.html");
-        $("#footer").load("footer.html");
+      $(document).ready(function() {
+          $("#loader").load("loader.html")
+          // Fakes the loading setting a timeout
+            setTimeout(function() {
+                    document.querySelector('.loader1').style.display = "none";
+            }, 1300);
+        });
+        $(function(){
+          setTimeout(() => {
+            document.querySelector('#post-loader').style.display = "block";
+            $("#header").load("header.html");
+            $("#footer").load("footer.html")
+          }, 500);
+            
       });
-    </script>
+        </script>
   </head>
   <body>
+    <div id="loader"></div>
+    <div id="post-loader">
     <div id="header" class="sticky-top"></div>
     <div class="banner">
       <!-- <div class="dark"></div> -->
@@ -123,5 +137,6 @@
       </div>
     </div>
     <section id="footer"></section>
+    </div>
   </body>
 </html>
