@@ -1,4 +1,4 @@
-nav{
+/* nav{
     animation: nav-load 2s ease-in-out;
 }
 
@@ -12,7 +12,7 @@ nav{
     100%{
         transform: translateY(0);
     }
-}
+} */
 body
 {
     font-family: 'Source Sans Pro', sans-serif;   

@@ -1,4 +1,7 @@
 
+#my-slider{
+    display: none;
+}
 .carousel-item{
     height:100vh;
     background-color:black;
@@ -6,9 +9,11 @@
     position: relative;
     background-position: center;
     background-size: cover ;
+    
     /* animation: carousel-ani 2s ease-in-out; */
 }
 .container{
+    
     position: relative;
     bottom: 0;
     left: 0;

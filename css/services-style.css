@@ -9,6 +9,9 @@ body {
   background-color: #e1f5fe;
   /* background-color: #fbfcf7; */
 }
+#post-loader{
+  display: none;
+}
 
 .banner::before {
   content: "";
