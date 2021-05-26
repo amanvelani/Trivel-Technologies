@@ -38,23 +38,7 @@
       @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
     </style>
      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
-     <script>
-      $(document).ready(function() {
-          $("#loader").load("loader.html")
-          // Fakes the loading setting a timeout
-            setTimeout(function() {
-                    document.querySelector('.loader1').style.display = "none";
-            }, 1300);
-        });
-        $(function(){
-          setTimeout(() => {
-            document.querySelector('#post-loader').style.display = "block";
-            $("#header").load("header.html");
-            $("#footer").load("footer.html")
-          }, 500);
-            
-      });
-        </script>
+    <script src="js/loader.js"></script>
   </head>
   <body>
     <div id="loader"></div>
