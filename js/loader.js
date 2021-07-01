@@ -3,13 +3,13 @@ $(document).ready(function() {
     // Fakes the loading setting a timeout
       setTimeout(function() {
               document.querySelector('.loader1').style.display = "none";
-      }, 2000);
+      }, 1500);
   });
   $(function(){
     setTimeout(() => {
       document.querySelector('#post-loader').style.display = "block";
       $("#header").load("header.html");
       $("#footer").load("footer.html")
-    }, 1700);
+    }, 800);
       
 });
